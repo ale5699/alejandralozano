@@ -1,0 +1,29 @@
+* {
+  padding:5;
+  margin:0;
+  font-size:15px;
+}
+body {
+      color: #fff;
+      font-family: sans-serif;
+      line-height: 150%;
+      text-align: left;
+      text-shadow: 0 2px 2px #088395;
+      background-color:#1d1e22 ;
+  }
+ h4,{
+  font-family: 'roboto', sans-serif;
+}
+
+body,.p1 {
+  background-color:#EC9688;
+  padding: -10px;
+  border: 5px solid white;
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+  height:400px
+  
+}
+li {
+  list-style: none ;
+}

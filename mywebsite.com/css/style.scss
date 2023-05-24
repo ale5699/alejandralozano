@@ -1,0 +1,126 @@
+* {
+  padding:5;
+  margin:0;
+  font-size:15px;
+}
+body {
+      color: #fff;
+      font-family: sans-serif;
+      line-height: 150%;
+      text-align: left;
+      text-shadow: 0 2px 2px #088395;
+      background-color:#1d1e22 ;
+  }
+
+ h1, h2, h3, h4, h5, h6{
+  font-family: 'Dancing Script', cursive  
+}
+
+body, {
+  background-color:#EC9688;
+  padding: -10px;
+  border: 5px solid white;
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+  height:400px
+  
+}
+  .p3 {
+  background-color:#EC9688;
+  padding:0px;
+  border: 5px solid white;
+  margin:1%;
+  font-family: 'Roboto', sans-serif;
+  height:600px
+  } 
+.p4 {
+  background-color:#EC9688;
+  padding:0px;
+  border: 5px solid white;
+  margin:1%;
+  font-family: 'Roboto', sans-serif;
+  height:600px
+  }  
+.p5 {
+  background-color:#EC9688;
+  padding:0px;
+  border: 5px solid white;
+  margin:1%;
+  font-family: 'Roboto', sans-serif;
+  height:600px
+  }  
+.grid { 
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+} 
+  .img1 {
+  width: 20%;
+  height: 300px;
+  
+}
+.img2{
+  width: 33%;
+  height: 200px;
+  box-shadow: 5px 5px 5px black;
+  }
+
+  .img3{
+  width: 33%;
+  height: 200px;
+  box-shadow: 5px 5px 5px black;
+  }
+
+ .img4{
+  width: 33%;
+  height: 200px;
+  box-shadow: 5px 5px 5px black;
+  }
+
+.welcome {
+  position:relative;
+  width: 100px;
+  height: 100px;
+  background: white;
+  background-image: url('https://media4.giphy.com/media/dzMu8oCKwBbpUFMBNs/giphy.gif?cid=ecf05e4799853cwyy2bf8j9ad2xb9kfnsjvi9h5l8ml57oyu&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+  background-size: 100px;
+  animation-fill-mode: none ;
+  animation-delay:1s;
+}
+* {
+  box-sizing: box;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.topnav a {
+  float: left ;
+  display: block ;
+  color: #f2f2f2;
+  text-align: center ;
+  padding: 10px 10px;
+  text-decoration: underline;
+}
+.topnav a:hover
+{
+  background-color: #ddd;
+  color: pink ;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .topnav a {
+    float: center;
+    width: 100%;
+  }
+}
+.container {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  place-content: center;
+}

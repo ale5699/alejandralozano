@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  place-content: center;
+}
+button {
+  width: 12rem;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.75rem;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+body {
+      color: #fff;
+      font-family: sans-serif;
+      line-height: 150%;
+      text-align: left;
+      text-shadow: 0 2px 2px #088395;
+      background-color:#1d1e22 ;
+  }
+body, p {
+  background-color:#EC9688;
+  padding: -10px;
+  border: none ;
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+  height:50px
+  
+}
